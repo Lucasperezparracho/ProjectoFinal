@@ -13,7 +13,7 @@ java {
     targetCompatibility = '11'
 }
 
-ext.jmonkeyengineVersion = '3.6.0-stable'
+ext.jmonkeyengineVersion = '3.5.0-stable'
 
 mainClassName = 'lucas.Main'
 if (!hasProperty('mainClass')) {
@@ -26,11 +26,11 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jmonkeyengine:jme3-core:3.3.2-stable"
-    implementation "org.jmonkeyengine:jme3-desktop:3.3.2-stable"
-    implementation "org.jmonkeyengine:jme3-lwjgl3:3.3.2-stable"
-    implementation "org.jmonkeyengine:jme3-terrain:3.3.2-stable"
-    implementation "org.jmonkeyengine:jme3-plugins:3.3.2-stable"
+    implementation "org.jmonkeyengine:jme3-core:3.5.0-stable"
+    implementation "org.jmonkeyengine:jme3-desktop:3.5.0-stable"
+    implementation "org.jmonkeyengine:jme3-lwjgl3:3.5.0-stable"
+    implementation "org.jmonkeyengine:jme3-terrain:3.5.0-stable"
+    implementation "org.jmonkeyengine:jme3-plugins:3.5.0-stable"
     runtimeOnly 'org.jmonkeyengine:jme3-jogg:' + jmonkeyengineVersion
     runtimeOnly 'org.jmonkeyengine:jme3-plugins:' + jmonkeyengineVersion
     runtimeOnly 'org.jmonkeyengine:jme3-lwjgl3:' + jmonkeyengineVersion
